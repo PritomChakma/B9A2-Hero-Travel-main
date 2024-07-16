@@ -2,3 +2,119 @@
 body {
   font-family: 'Mulish', sans-serif;
 }
+.dark2-color {
+  color: rgb(66, 66, 71);
+}
+.org-color {
+  color: rgb(255, 84, 0);
+}
+h3 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 45px;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+/* defult style */
+* {
+  margin: 0;
+}
+.container {
+  width: 90%;
+  margin: 5rem auto;
+  border-radius: 1rem;
+}
+/* Nav bar */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  width: 280px;
+}
+.nav-logo img {
+  width: 48px;
+  height: 56px;
+  margin-right: 0.5rem;
+}
+.nav-option {
+  display: flex;
+  justify-content: space-around;
+  gap: 2.8rem;
+}
+.nav-option p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 23px;
+  cursor: pointer;
+}
+/* <!-- Explore travel section --> */
+
+.explore-container {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8),
+      rgba(19, 19, 24, 0)
+    ),
+    url(../Images/background1.png);
+  padding: 7rem 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.explore-title {
+  align-items: center;
+  justify-content: center;
+}
+
+.explore-title h3 {
+  font-size: 4rem;
+  font-weight: 800px;
+  color: rgb(255, 255, 255);
+}
+.explore-title p {
+  font-size: 1rem;
+  font-weight: 400px;
+  color: rgb(255, 255, 255);
+  padding: 1.5rem 0;
+}
+.explore-input {
+  margin-top: 2rem;
+  border-radius: 8px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  backdrop-filter: blur(2px);
+  margin-top: 64px;
+}
+.explore-input input,
+select,
+button {
+  margin: 8px;
+}
+input,
+select,
+button {
+  width: 170px;
+  height: 40px;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+  border-radius: 8px;
+  border: none;
+}
+.btn-primary {
+  background-color: rgb(255, 84, 0);
+  color: white;
+}
